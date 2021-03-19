@@ -1,3 +1,0 @@
-global:
-  applicationName: ref-quarkus-mvn-jenkins-std
-  serviceName: fruit

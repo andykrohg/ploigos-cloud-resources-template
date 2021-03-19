@@ -33,11 +33,11 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: {{ .Values.probe.readypath }}
+              path: /
               port: http
           readinessProbe:
             httpGet:
-              path: {{ .Values.probe.livepath }}
+              path: /
               port: http
           resources:
 {{ toYaml .Values.resources | indent 12 }}

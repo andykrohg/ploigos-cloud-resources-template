@@ -4,17 +4,13 @@ image:
   pullPolicy: Always
 
 service:
-  name: fruit
+  name: myapp
   type: ClusterIP
   port: 80
   targetport: 8080
 
-probe:
-  readypath: /fruits
-  livepath:  /fruits
-
 route:
-  name: fruit
+  name: myapp
   enabled: True
   annotations: {
   }
