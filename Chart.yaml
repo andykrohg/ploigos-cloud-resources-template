@@ -1,7 +1,7 @@
 apiVersion: v2
-name: cloud-deploy
+name: myapp
 description: >-
-  A helm chart for Kubernetest to deploy the my application.
+  A helm chart for Kubernetes to deploy my application.
 type: application
 
 # This is the chart version. This version number should be incremented each time you make changes

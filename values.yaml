@@ -4,13 +4,11 @@ image:
   pullPolicy: Always
 
 service:
-  name: myapp
   type: ClusterIP
   port: 80
   targetport: 8080
 
 route:
-  name: myapp
   enabled: True
   annotations: {
   }
